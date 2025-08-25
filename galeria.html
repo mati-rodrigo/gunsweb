@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Guns N' Roses | GunsWeb</title>
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/dist/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    <!--Favicon-->
+    <link rel="icon" href="material/favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-dark text-white galeria-page">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html"> GunsWeb</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="discografia.html">Discografía</a></li>
+                    <li class="nav-item"><a class="nav-link" href="integrantes.html">Integrantes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <header class="mb-4">
+            <h1 class="section-title">Galería</h1>
+        </header>
+
+        <section class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!-- Imagen 1 -->
+            <article class="col">
+                <img src="material/galeria/guns1.jpg" 
+                     class="img-fluid rounded fade-in" 
+                     alt="Guns N' Roses" 
+                     onclick="openModal(0)"
+                     style="cursor: pointer; width: 100%; height: 350px; object-fit: cover;"
+                     role="button"
+                     tabindex="0"
+                     onkeydown="if(event.key==='Enter') openModal(0)">
+            </article>
+
+            <!-- Imagen 2 -->
+            <article class="col">
+                <img src="material/galeria/guns2.jpg" 
+                     class="img-fluid rounded fade-in" 
+                     alt="Guns N' Roses" 
+                     onclick="openModal(1)"
+                     style="cursor: pointer; width: 100%; height: 350px; object-fit: cover;"
+                     role="button"
+                     tabindex="0"
+                     onkeydown="if(event.key==='Enter') openModal(1)">
+            </article>
+
+            <!-- Imagen 3 -->
+            <article class="col">
+                <img src="material/galeria/guns3.jpg" 
+                     class="img-fluid rounded fade-in" 
+                     alt="Guns N' Roses" 
+                     onclick="openModal(2)"
+                     style="cursor: pointer; width: 100%; height: 350px; object-fit: cover;"
+                     role="button"
+                     tabindex="0"
+                     onkeydown="if(event.key==='Enter') openModal(2)">
+            </article>
+
+            <!-- Imagen 4 -->
+            <article class="col">
+                <img src="material/galeria/guns4.jpg" 
+                     class="img-fluid rounded fade-in" 
+                     alt="Guns N' Roses" 
+                     onclick="openModal(3)"
+                     style="cursor: pointer; width: 100%; height: 350px; object-fit: cover;"
+                     role="button"
+                     tabindex="0"
+                     onkeydown="if(event.key==='Enter') openModal(3)">
+            </article>
+
+            <!-- Imagen 5 -->
+            <article class="col">
+                <img src="material/galeria/guns5.jpg" 
+                     class="img-fluid rounded fade-in" 
+                     alt="Guns N' Roses" 
+                     onclick="openModal(4)"
+                     style="cursor: pointer; width: 100%; height: 350px; object-fit: cover;"
+                     role="button"
+                     tabindex="0"
+                     onkeydown="if(event.key==='Enter') openModal(4)">
+            </article>
+
+            <!-- Imagen 6 -->
+            <article class="col">
+                <img src="material/galeria/guns6.jpg" 
+                     class="img-fluid rounded fade-in" 
+                     alt="Guns N' Roses" 
+                     onclick="openModal(5)"
+                     style="cursor: pointer; width: 100%; height: 350px; object-fit: cover;"
+                     role="button"
+                     tabindex="0"
+                     onkeydown="if(event.key==='Enter') openModal(5)">
+            </article>
+
+            <!-- Imagen 7 -->
+            <article class="col">
+                <img src="material/galeria/guns7.jpg" 
+                     class="img-fluid rounded fade-in" 
+                     alt="Guns N' Roses" 
+                     onclick="openModal(6)"
+                     style="cursor: pointer; width: 100%; height: 350px; object-fit: cover;"
+                     role="button"
+                     tabindex="0"
+                     onkeydown="if(event.key==='Enter') openModal(6)">
+            </article>
+
+            <!-- Imagen 8 -->
+            <article class="col">
+                <img src="material/galeria/guns8.jpg" 
+                     class="img-fluid rounded fade-in" 
+                     alt="Guns N' Roses" 
+                     onclick="openModal(7)"
+                     style="cursor: pointer; width: 100%; height: 350px; object-fit: cover;"
+                     role="button"
+                     tabindex="0"
+                     onkeydown="if(event.key==='Enter') openModal(7)">
+            </article>
+
+            <!-- Imagen 9 -->
+            <article class="col">
+                <img src="material/galeria/guns9.jpg" 
+                     class="img-fluid rounded fade-in" 
+                     alt="Guns N' Roses" 
+                     onclick="openModal(8)"
+                     style="cursor: pointer; width: 100%; height: 350px; object-fit: cover;"
+                     role="button"
+                     tabindex="0"
+                     onkeydown="if(event.key==='Enter') openModal(8)">
+            </article>
+
+            <!-- Imagen 10 -->
+            <article class="col">
+                <img src="material/galeria/guns10.jpg" 
+                     class="img-fluid rounded fade-in" 
+                     alt="Guns N' Roses" 
+                     onclick="openModal(9)"
+                     style="cursor: pointer; width: 100%; height: 350px; object-fit: cover;"
+                     role="button"
+                     tabindex="0"
+                     onkeydown="if(event.key==='Enter') openModal(9)">
+            </article>
+
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="gallery-modal" id="galleryModal" onclick="closeModal()" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" onclick="closeModal()" aria-label="Cerrar galería">&times;</button>
+        <button class="modal-nav modal-prev" onclick="previousImage(event)" aria-label="Imagen anterior">&#8249;</button>
+        <button class="modal-nav modal-next" onclick="nextImage(event)" aria-label="Imagen siguiente">&#8250;</button>
+        
+        <div class="modal-content">
+            <h2 class="modal-title" id="modal-title">Galería</h2>
+            <img class="modal-image" id="modalImage" alt="Imagen ampliada de Guns N' Roses">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>GunsWeb</h5>
+                    <p class="mb-0">Sitio desarrollado para "Proyecto Final"</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">&copy; 2025 GunsWeb</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

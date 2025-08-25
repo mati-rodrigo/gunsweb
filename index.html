@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guns N' Roses - Inicio | GunsWeb</title>
+    <meta name="keywords" content="Guns N Roses, rock, hard rock, Axl Rose, Slash, música, banda">
+    
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/dist/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="material/favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-dark text-white">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html" aria-label="Página principal de GunsWeb">
+                 GunsWeb
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" 
+                    aria-controls="menu" aria-expanded="false" aria-label="Alternar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="discografia.html">Discografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="integrantes.html">Integrantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-label="Sección principal">
+        <div class="image-carousel">
+            <img src="material/portada/portada1.jpg" class="carousel-image active">
+            <img src="material/portada/portada2.jpg" class="carousel-image">
+            <img src="material/portada/portada3.jpg" class="carousel-image">
+            <img src="material/portada/portada4.jpg" class="carousel-image">
+        </div>
+        
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Guns<br>
+                N'<br>
+                Roses
+            </h1>
+            <p class="hero-description">
+                Descubri todo sobre los Guns.
+                ¡Desde su discografia, imagenes, e integrantes!
+            </p>
+            <a href="#navigation" class="hero-cta" aria-label="Conocer">
+                Conocer
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Navigation Cards Section -->
+    <section class="container navigation-cards" id="navigation" aria-label="Navegación principal del contenido">
+        <h2 class="section-title fade-in">¿Que te gustaria conocer?</h2>
+        
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            
+            <!-- Galería -->
+            <div class="col fade-in">
+                <article class="card nav-card bg-secondary text-white h-100">
+                    <a href="galeria.html">
+                        <div class="nav-card-body">
+                            <i class="bi bi-images" aria-hidden="true">📷</i>
+                            <h3 class="nav-card-title">Galería</h3>
+                            <p class="nav-card-text">Fotos de la banda</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- Discografía -->
+            <div class="col fade-in">
+                <article class="card nav-card bg-secondary text-white h-100">
+                    <a href="discografia.html">
+                        <div class="nav-card-body">
+                            <i class="bi bi-vinyl-fill" aria-hidden="true">🎵</i>
+                            <h3 class="nav-card-title">Discografía</h3>
+                            <p class="nav-card-text">Todos los álbumes para que los puedas escuchar</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- Integrantes -->
+            <div class="col fade-in">
+                <article class="card nav-card bg-secondary text-white h-100">
+                    <a href="integrantes.html">
+                        <div class="nav-card-body">
+                            <i class="bi bi-people-fill" aria-hidden="true">👥</i>
+                            <h3 class="nav-card-title">Integrantes</h3>
+                            <p class="nav-card-text">Conoce a los integrantes</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+            <!-- Contacto -->
+            <div class="col fade-in">
+                <article class="card nav-card bg-secondary text-white h-100">
+                    <a href="contacto.html">
+                        <div class="nav-card-body">
+                            <i class="bi bi-envelope-fill" aria-hidden="true">✉️</i>
+                            <h3 class="nav-card-title">Contacto</h3>
+                            <p class="nav-card-text">¿Te gustaria aportar algo o realizar una sugerencia?</p>
+                        </div>
+                    </a>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>GunsWeb</h5>
+                    <p class="mb-0">Sitio desarrollado para "Proyecto Final"</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">&copy; 2025 GunsWeb</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!--JavaScript-->
+    <script src="main.js"></script>
+</body>
+</html>
